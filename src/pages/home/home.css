@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .home {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      display: none;
+    }
+  }
+  
